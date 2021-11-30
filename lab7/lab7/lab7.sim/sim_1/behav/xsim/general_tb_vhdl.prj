@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab7.srcs/sources_1/ip/fir_compiler_0_1/sim/fir_compiler_0.vhd" \
+"../../../../lab7.srcs/sources_1/ip/dds_compiler_1/sim/dds_compiler_1.vhd" \
+"../../../../lab7.srcs/sources_1/ip/dds_compiler_0/sim/dds_compiler_0.vhd" \
+"../../../../lab7.srcs/sources_1/new/parallel.vhd" \
+"../../../../lab7.srcs/sources_1/new/serial.vhd" \
+"../../../../lab7.srcs/sim_1/new/general_tb.vhd" \
+
+# Do not sort compile order
+nosort

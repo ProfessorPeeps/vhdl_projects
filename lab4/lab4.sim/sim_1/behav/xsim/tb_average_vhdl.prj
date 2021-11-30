@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab4.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.vhdl" \
+"../../../../lab4.srcs/sources_1/new/computeAverage.vhd" \
+"../../../../lab4.srcs/sim_1/new/tb_average.vhd" \
+
+# Do not sort compile order
+nosort

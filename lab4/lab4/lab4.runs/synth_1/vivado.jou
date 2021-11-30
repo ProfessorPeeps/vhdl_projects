@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Oct 14 20:49:29 2019
+# Process ID: 11280
+# Current directory: Z:/ECE/ECE524L/lab4/lab4.runs/synth_1
+# Command line: vivado.exe -log computeAverage.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source computeAverage.tcl
+# Log file: Z:/ECE/ECE524L/lab4/lab4.runs/synth_1/computeAverage.vds
+# Journal file: Z:/ECE/ECE524L/lab4/lab4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source computeAverage.tcl -notrace

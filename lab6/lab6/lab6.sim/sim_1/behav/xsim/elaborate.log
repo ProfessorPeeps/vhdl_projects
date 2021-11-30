@@ -1,0 +1,9 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 93f728c148f249c7a267efa15266959c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_lab6_behav xil_defaultlib.tb_lab6 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+ERROR: [XSIM 43-3249] File Z:/ECE/ECE524L/lab6/lab6.srcs/sources_1/new/lab6.vhd, line 35. Unresolved signal "i" is multiply driven.

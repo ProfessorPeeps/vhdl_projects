@@ -1,0 +1,122 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 5536
+License: Customer
+
+Current time: 	Mon Sep 23 19:36:25 PDT 2019
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 8.1
+OS Version: 6.3
+OS Architecture: amd64
+Available processors (cores): 2
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 43 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Juan
+User home directory: C:/Users/Juan
+User working directory: U:/ECE524L/Lab2/tb_filter
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/Juan/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/Juan/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/Juan/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	U:/ECE524L/Lab2/tb_filter/vivado.log
+Vivado journal file location: 	U:/ECE524L/Lab2/tb_filter/vivado.jou
+Engine tmp dir: 	U:/ECE524L/Lab2/tb_filter/.Xil/Vivado-5536-Peeps
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	178 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 456 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 34 MB (+32779kb) [00:00:07]
+// [Engine Memory]: 292 MB (+154495kb) [00:00:07]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 51 MB (+15993kb) [00:00:53]
+// [Engine Memory]: 456 MB (+156588kb) [00:00:53]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: U:\ECE524L\Lab2\tb_filter\tb_filter.xpr. Version: Vivado v2018.2 
+// HMemoryUtils.trashcanNow. Engine heap size: 456 MB. GUI used memory: 34 MB. Current time: 9/23/19 7:36:30 PM PDT
+// Tcl Message: open_project U:/ECE524L/Lab2/tb_filter/tb_filter.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// [Engine Memory]: 481 MB (+2633kb) [00:01:03]
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project U:/ECE524L/Lab2/tb_filter/tb_filter.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 520 MB (+15625kb) [00:01:29]
+// [GUI Memory]: 57 MB (+3665kb) [00:01:32]
+// HMemoryUtils.trashcanNow. Engine heap size: 539 MB. GUI used memory: 38 MB. Current time: 9/23/19 7:37:11 PM PDT
+// Tcl Message: open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 732.426 ; gain = 56.234 
+// Project name: tb_filter; location: U:/ECE524L/Lab2/tb_filter; part: xc7k70tfbv676-1
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1848 ms. Increasing delay to 3000 ms.
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 556 MB (+10231kb) [00:01:48]
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 557 MB. GUI used memory: 36 MB. Current time: 9/23/19 7:37:28 PM PDT
+// PAPropertyPanels.initPanels (cic.vhd) elapsed time: 0.9s
+// Elapsed time: 68 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cic(syn) (cic.vhd)]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cic(syn) (cic.vhd)]", 1, false, false, false, false, false, true); // B (D, ck) - Double Click
+// [GUI Memory]: 60 MB (+449kb) [00:02:52]
+typeControlKey((HResource) null, "cic.vhd", 'c'); // ce (w, ck)
+// Elapsed time: 29 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (D, ck)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_filter(Behavioral) (tb_filter.vhd)]", 6, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_filter(Behavioral) (tb_filter.vhd)]", 6, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// [GUI Memory]: 65 MB (+1899kb) [00:03:34]
+typeControlKey((HResource) null, "tb_filter.vhd", 'c'); // ce (w, ck)
+// [GUI Memory]: 70 MB (+2040kb) [00:03:44]
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 548 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 2679 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 2682 ms to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 8860 ms. Increasing delay to 4000 ms.

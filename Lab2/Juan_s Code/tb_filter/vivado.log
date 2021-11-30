@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Sep 23 19:34:23 2019
+# Process ID: 5536
+# Current directory: U:/ECE524L/Lab2/tb_filter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2212 U:\ECE524L\Lab2\tb_filter\tb_filter.xpr
+# Log file: U:/ECE524L/Lab2/tb_filter/vivado.log
+# Journal file: U:/ECE524L/Lab2/tb_filter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project U:/ECE524L/Lab2/tb_filter/tb_filter.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 732.426 ; gain = 56.234
+update_compile_order -fileset sources_1

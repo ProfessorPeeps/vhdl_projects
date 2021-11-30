@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Fri Nov 01 20:18:49 UTC 2019
+VLNV: xilinx.com:ip:dds_compiler:6.0
+SynthRuntime: 71

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Sep 10 11:07:17 2019
+# Process ID: 3204
+# Current directory: U:/ECE524L/Lab1/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log lab1_toplevel.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab1_toplevel.tcl
+# Log file: U:/ECE524L/Lab1/project_1/project_1.runs/synth_1/lab1_toplevel.vds
+# Journal file: U:/ECE524L/Lab1/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab1_toplevel.tcl -notrace

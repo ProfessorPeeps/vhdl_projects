@@ -1,0 +1,7 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto f3ce543b74fe435c888cd7783cc6cd0a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot p2_tb_behav xil_defaultlib.p2_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <clock> does not exist in entity <stream_interleaver_pt2>.  Please compare the definition of block <stream_interleaver_pt2> to its component declaration and its instantion to detect the mismatch. [Z:/ECE/ECE524L/Lab3/Lab3/Lab3.srcs/sim_1/new/tb_stream_interleaver_pt2.vhd:45]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Sep 23 15:29:19 2019
+# Process ID: 1764
+# Log file: U:/ECE524L/Lab2/tb_filter/vivado.log
+# Journal file: U:/ECE524L/Lab2/tb_filter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 23 15:38:31 2019...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Aug 28 12:48:00 2019
+# Process ID: 2496
+# Log file: U:/ECE524L/Lab1/project_1/vivado.log
+# Journal file: U:/ECE524L/Lab1/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+
+open_project U:/ECE524L/Lab1/project_1/project_1.xpr

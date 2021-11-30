@@ -1,0 +1,359 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov  1 19:28:12 2019
+# Process ID: 9892
+# Current directory: D:/ece524/lab7/lab7.runs/synth_1
+# Command line: vivado.exe -log parallel.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source parallel.tcl
+# Log file: D:/ece524/lab7/lab7.runs/synth_1/parallel.vds
+# Journal file: D:/ece524/lab7/lab7.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source parallel.tcl -notrace
+Command: synth_design -top parallel -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17260 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 355.863 ; gain = 98.895
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'parallel' [D:/ece524/lab7/lab7.srcs/sources_1/new/parallel.vhd:16]
+	Parameter ADDR bound to: 5 - type: integer 
+	Parameter WIDTH bound to: 16 - type: integer 
+WARNING: [Synth 8-614] signal 'en' is read in the process but is not in the sensitivity list [D:/ece524/lab7/lab7.srcs/sources_1/new/parallel.vhd:52]
+WARNING: [Synth 8-614] signal 'h' is read in the process but is not in the sensitivity list [D:/ece524/lab7/lab7.srcs/sources_1/new/parallel.vhd:52]
+WARNING: [Synth 8-614] signal 'xh' is read in the process but is not in the sensitivity list [D:/ece524/lab7/lab7.srcs/sources_1/new/parallel.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element temp_reg was removed.  [D:/ece524/lab7/lab7.srcs/sources_1/new/parallel.vhd:74]
+WARNING: [Synth 8-6014] Unused sequential element temp1_reg was removed.  [D:/ece524/lab7/lab7.srcs/sources_1/new/parallel.vhd:75]
+WARNING: [Synth 8-6014] Unused sequential element temp2_reg was removed.  [D:/ece524/lab7/lab7.srcs/sources_1/new/parallel.vhd:76]
+INFO: [Synth 8-256] done synthesizing module 'parallel' (1#1) [D:/ece524/lab7/lab7.srcs/sources_1/new/parallel.vhd:16]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 410.695 ; gain = 153.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 410.695 ; gain = 153.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 410.695 ; gain = 153.727
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+DSP Debug: swapped A/B pins for adder 000001C0A5E5AB10
+DSP Debug: swapped A/B pins for adder 000001C0A5E56A30
+WARNING: [Synth 8-327] inferring latch for variable 'xh_reg[0]' [D:/ece524/lab7/lab7.srcs/sources_1/new/parallel.vhd:61]
+WARNING: [Synth 8-327] inferring latch for variable 'xh_reg[3]' [D:/ece524/lab7/lab7.srcs/sources_1/new/parallel.vhd:61]
+WARNING: [Synth 8-327] inferring latch for variable 'xh_reg[5]' [D:/ece524/lab7/lab7.srcs/sources_1/new/parallel.vhd:61]
+WARNING: [Synth 8-327] inferring latch for variable 'xh_reg[7]' [D:/ece524/lab7/lab7.srcs/sources_1/new/parallel.vhd:61]
+WARNING: [Synth 8-327] inferring latch for variable 'xh_reg[9]' [D:/ece524/lab7/lab7.srcs/sources_1/new/parallel.vhd:61]
+WARNING: [Synth 8-327] inferring latch for variable 'xh_reg[10]' [D:/ece524/lab7/lab7.srcs/sources_1/new/parallel.vhd:61]
+WARNING: [Synth 8-327] inferring latch for variable 'xh_reg[1]' [D:/ece524/lab7/lab7.srcs/sources_1/new/parallel.vhd:61]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 410.695 ; gain = 153.727
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 20    
++---Registers : 
+	               32 Bit    Registers := 21    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module parallel 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 20    
++---Registers : 
+	               32 Bit    Registers := 21    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+DSP Report: Generating DSP xh_reg[3]0, operation Mode is: A*(B:0x3fee7).
+DSP Report: operator xh_reg[3]0 is absorbed into DSP xh_reg[3]0.
+DSP Report: Generating DSP xh_reg[5]0, operation Mode is: A*(B:0x31d).
+DSP Report: operator xh_reg[5]0 is absorbed into DSP xh_reg[5]0.
+DSP Report: Generating DSP xh_reg[7]0, operation Mode is: A*(B:0x3f822).
+DSP Report: operator xh_reg[7]0 is absorbed into DSP xh_reg[7]0.
+DSP Report: Generating DSP xh_reg[9]0, operation Mode is: A*(B:0x1c9b).
+DSP Report: operator xh_reg[9]0 is absorbed into DSP xh_reg[9]0.
+DSP Report: Generating DSP xh_reg[10]0, operation Mode is: A*(B:0x2e00).
+DSP Report: operator xh_reg[10]0 is absorbed into DSP xh_reg[10]0.
+DSP Report: Generating DSP xh_reg[1]0, operation Mode is: A*(B:0x3ffaf).
+DSP Report: operator xh_reg[1]0 is absorbed into DSP xh_reg[1]0.
+INFO: [Synth 8-3886] merging instance 'xh_reg[10][30]' (LD) to 'xh_reg[10][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[9][29]' (LD) to 'xh_reg[9][30]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[9][30]' (LD) to 'xh_reg[9][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[7][27]' (LD) to 'xh_reg[7][28]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[7][28]' (LD) to 'xh_reg[7][29]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[7][29]' (LD) to 'xh_reg[7][30]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[7][30]' (LD) to 'xh_reg[7][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[5][26]' (LD) to 'xh_reg[5][27]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[5][27]' (LD) to 'xh_reg[5][28]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[5][28]' (LD) to 'xh_reg[5][29]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[5][29]' (LD) to 'xh_reg[5][30]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[5][30]' (LD) to 'xh_reg[5][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[3][25]' (LD) to 'xh_reg[3][26]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[3][26]' (LD) to 'xh_reg[3][27]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[3][27]' (LD) to 'xh_reg[3][28]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[3][28]' (LD) to 'xh_reg[3][29]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[3][29]' (LD) to 'xh_reg[3][30]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[3][30]' (LD) to 'xh_reg[3][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[1][23]' (LD) to 'xh_reg[1][24]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[1][24]' (LD) to 'xh_reg[1][25]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[1][25]' (LD) to 'xh_reg[1][26]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[1][26]' (LD) to 'xh_reg[1][27]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[1][27]' (LD) to 'xh_reg[1][28]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[1][28]' (LD) to 'xh_reg[1][29]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[1][29]' (LD) to 'xh_reg[1][30]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[1][30]' (LD) to 'xh_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][0]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][1]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][2]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][3]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][4]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][5]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][6]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][7]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][8]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][9]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][10]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][11]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][12]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][13]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][14]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][15]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][16]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][17]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][18]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][19]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][20]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][21]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][22]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][23]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][24]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][25]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][26]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][27]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][28]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][29]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'xh_reg[0][30]' (LD) to 'xh_reg[0][31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\xh_reg[0][31] )
+INFO: [Synth 8-3886] merging instance 'temp_mem1_reg[1][23]' (FDE) to 'temp_mem1_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'temp_mem1_reg[1][24]' (FDE) to 'temp_mem1_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'temp_mem1_reg[1][25]' (FDE) to 'temp_mem1_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'temp_mem1_reg[1][26]' (FDE) to 'temp_mem1_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'temp_mem1_reg[1][27]' (FDE) to 'temp_mem1_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'temp_mem1_reg[1][28]' (FDE) to 'temp_mem1_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'temp_mem1_reg[1][29]' (FDE) to 'temp_mem1_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'temp_mem1_reg[1][30]' (FDE) to 'temp_mem1_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'temp_mem1_reg[2][23]' (FDE) to 'temp_mem1_reg[2][24]'
+INFO: [Synth 8-3886] merging instance 'temp_mem1_reg[2][24]' (FDE) to 'temp_mem1_reg[2][25]'
+INFO: [Synth 8-3886] merging instance 'temp_mem1_reg[2][25]' (FDE) to 'temp_mem1_reg[2][26]'
+INFO: [Synth 8-3886] merging instance 'temp_mem1_reg[2][26]' (FDE) to 'temp_mem1_reg[2][27]'
+INFO: [Synth 8-3886] merging instance 'temp_mem1_reg[2][27]' (FDE) to 'temp_mem1_reg[2][28]'
+INFO: [Synth 8-3886] merging instance 'temp_mem1_reg[2][28]' (FDE) to 'temp_mem1_reg[2][29]'
+INFO: [Synth 8-3886] merging instance 'temp_mem1_reg[2][29]' (FDE) to 'temp_mem1_reg[2][30]'
+INFO: [Synth 8-3886] merging instance 'temp_mem1_reg[2][30]' (FDE) to 'temp_mem1_reg[2][31]'
+WARNING: [Synth 8-3332] Sequential element (xh_reg[0][31]) is unused and will be removed from module parallel.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 558.262 ; gain = 301.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|parallel    | A*(B:0x3fee7) | 16     | 10     | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel    | A*(B:0x31d)   | 16     | 11     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel    | A*(B:0x3f822) | 16     | 12     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel    | A*(B:0x1c9b)  | 16     | 14     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel    | A*(B:0x2e00)  | 16     | 15     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel    | A*(B:0x3ffaf) | 16     | 8      | -      | -      | 24     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 558.262 ; gain = 301.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 558.262 ; gain = 301.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 558.262 ; gain = 301.293
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 558.262 ; gain = 301.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 558.262 ; gain = 301.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 558.262 ; gain = 301.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 558.262 ; gain = 301.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 558.262 ; gain = 301.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     2|
+|2     |CARRY4  |    80|
+|3     |DSP48E1 |     6|
+|4     |LUT2    |   320|
+|5     |FDRE    |   656|
+|6     |LD      |   166|
+|7     |IBUF    |    18|
+|8     |OBUF    |    32|
++------+--------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  1280|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 558.262 ; gain = 301.293
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 558.262 ; gain = 301.293
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 558.262 ; gain = 301.293
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 270 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'parallel' is not ideal for floorplanning, since the cellview 'parallel' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 166 instances were transformed.
+  LD => LDCE: 166 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+85 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 674.438 ; gain = 430.480
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'D:/ece524/lab7/lab7.runs/synth_1/parallel.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file parallel_utilization_synth.rpt -pb parallel_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 674.438 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  1 19:28:32 2019...

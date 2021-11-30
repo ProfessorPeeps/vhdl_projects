@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Oct 14 14:13:11 2019
+# Process ID: 16376
+# Current directory: Z:/ECE/ECE524L/lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8056 Z:\ECE\ECE524L\lab4\lab4.xpr
+# Log file: Z:/ECE/ECE524L/lab4/vivado.log
+# Journal file: Z:/ECE/ECE524L/lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only Z:/ECE/ECE524L/lab4/lab4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'dist_mem_gen_0' is locked:
+* Project containing IP 'dist_mem_gen_0' is read-only. * IP definition 'Distributed Memory Generator (8.0)' for IP 'dist_mem_gen_0' (customized with software release 2018.2) has a different revision in the IP Catalog. * Current project part 'xc7k70tfbv676-1' and the part 'xc7vx485tffg1157-1' used to customize the IP 'dist_mem_gen_0' do not match.
+WARNING: [Project 1-229] Project 'lab4.xpr' is read-only and therefore could not be upgraded for this version of Vivado.  Use 'File | Save Project As...' if you wish to save an upgraded copy.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 747.480 ; gain = 150.387
+update_compile_order -fileset sources_1

@@ -1,0 +1,168 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov  1 12:07:29 2019
+# Process ID: 20488
+# Current directory: D:/ece524/lab7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13688 D:\ece524\lab7\lab7.xpr
+# Log file: D:/ece524/lab7/vivado.log
+# Journal file: D:/ece524/lab7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ece524/lab7/lab7.xpr
+update_compile_order -fileset sources_1
+set_property is_enabled true [get_files  D:/ece524/lab7/lab7.srcs/sim_1/new/general_tb.vhd]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source general_tb.tcl
+run 5 us
+relaunch_sim
+set_property -dict [list CONFIG.Channels {3} CONFIG.Parameter_Entry {Hardware_Parameters} CONFIG.Output_Width {16} CONFIG.Has_TREADY {false} CONFIG.Frequency_Resolution {0.4} CONFIG.Noise_Shaping {None} CONFIG.Phase_Width {16} CONFIG.DATA_Has_TLAST {Not_Required} CONFIG.S_PHASE_Has_TUSER {Not_Required} CONFIG.M_DATA_Has_TUSER {Not_Required} CONFIG.M_PHASE_Has_TUSER {Not_Required} CONFIG.Latency {7} CONFIG.Output_Frequency1 {0} CONFIG.PINC1 {0}] [get_ips dds_compiler_0]
+generate_target all [get_files  D:/ece524/lab7/lab7.srcs/sources_1/ip/dds_compiler_0/dds_compiler_0.xci]
+catch { config_ip_cache -export [get_ips -all dds_compiler_0] }
+export_ip_user_files -of_objects [get_files D:/ece524/lab7/lab7.srcs/sources_1/ip/dds_compiler_0/dds_compiler_0.xci] -no_script -sync -force -quiet
+reset_run dds_compiler_0_synth_1
+launch_runs -jobs 2 dds_compiler_0_synth_1
+export_simulation -of_objects [get_files D:/ece524/lab7/lab7.srcs/sources_1/ip/dds_compiler_0/dds_compiler_0.xci] -directory D:/ece524/lab7/lab7.ip_user_files/sim_scripts -ip_user_files_dir D:/ece524/lab7/lab7.ip_user_files -ipstatic_source_dir D:/ece524/lab7/lab7.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ece524/lab7/lab7.cache/compile_simlib/modelsim} {questa=D:/ece524/lab7/lab7.cache/compile_simlib/questa} {riviera=D:/ece524/lab7/lab7.cache/compile_simlib/riviera} {activehdl=D:/ece524/lab7/lab7.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source general_tb.tcl
+run 5 us
+relaunch_sim
+run 5 us
+close_sim
+set_property -dict [list CONFIG.Channels {1} CONFIG.Parameter_Entry {System_Parameters} CONFIG.Output_Frequency1 {0.5} CONFIG.Frequency_Resolution {0.4} CONFIG.Noise_Shaping {Auto} CONFIG.Phase_Width {24} CONFIG.Output_Width {8} CONFIG.DATA_Has_TLAST {Not_Required} CONFIG.S_PHASE_Has_TUSER {Not_Required} CONFIG.M_DATA_Has_TUSER {Not_Required} CONFIG.M_PHASE_Has_TUSER {Not_Required} CONFIG.Latency {3} CONFIG.PINC1 {110011001100110011001}] [get_ips dds_compiler_0]
+generate_target all [get_files  D:/ece524/lab7/lab7.srcs/sources_1/ip/dds_compiler_0/dds_compiler_0.xci]
+catch { config_ip_cache -export [get_ips -all dds_compiler_0] }
+catch { [ delete_ip_run [get_ips -all dds_compiler_0] ] }
+export_ip_user_files -of_objects [get_files D:/ece524/lab7/lab7.srcs/sources_1/ip/dds_compiler_0/dds_compiler_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ece524/lab7/lab7.srcs/sources_1/ip/dds_compiler_0/dds_compiler_0.xci]
+export_simulation -of_objects [get_files D:/ece524/lab7/lab7.srcs/sources_1/ip/dds_compiler_0/dds_compiler_0.xci] -directory D:/ece524/lab7/lab7.ip_user_files/sim_scripts -ip_user_files_dir D:/ece524/lab7/lab7.ip_user_files -ipstatic_source_dir D:/ece524/lab7/lab7.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ece524/lab7/lab7.cache/compile_simlib/modelsim} {questa=D:/ece524/lab7/lab7.cache/compile_simlib/questa} {riviera=D:/ece524/lab7/lab7.cache/compile_simlib/riviera} {activehdl=D:/ece524/lab7/lab7.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source general_tb.tcl
+run 5 us
+relaunch_sim
+run 5 us
+current_wave_config {Untitled 3}
+add_wave {{/general_tb/part2}} 
+relaunch_sim
+run 5 us
+run all
+relaunch_sim
+relaunch_sim
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+relaunch_sim
+relaunch_sim
+run 5 us
+run 5 us
+run 5 us
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 4}
+add_wave {{/general_tb/x_2}} 
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+relaunch_sim
+close_sim
+launch_simulation
+source general_tb.tcl
+close_sim
+launch_simulation
+source general_tb.tcl
+run 5 us
+run 5 us
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+close_sim
+close [ open D:/ece524/lab7/lab7.srcs/sources_1/new/serial.vhd w ]
+add_files D:/ece524/lab7/lab7.srcs/sources_1/new/serial.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source general_tb.tcl
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source general_tb.tcl
+run 5 us
+current_wave_config {Untitled 8}
+add_wave {{/general_tb/u4/x}} {{/general_tb/u4/data_out}} {{/general_tb/u4/clk}} {{/general_tb/u4/en}} {{/general_tb/u4/addra}} {{/general_tb/u4/douta}} {{/general_tb/u4/mux_out}} {{/general_tb/u4/product}} {{/general_tb/u4/product_out}} {{/general_tb/u4/shift_cnt}} {{/general_tb/u4/MEM}} {{/general_tb/u4/ADDR}} {{/general_tb/u4/WIDTH}} 
+relaunch_sim
+relaunch_sim
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+relaunch_sim
+relaunch_sim
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+relaunch_sim
+relaunch_sim
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+close_sim
+launch_simulation
+source general_tb.tcl
+current_wave_config {Untitled 9}
+add_wave {{/general_tb/u4}} 
+relaunch_sim
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+relaunch_sim
+run 5 us
+run 5 us
+close_sim

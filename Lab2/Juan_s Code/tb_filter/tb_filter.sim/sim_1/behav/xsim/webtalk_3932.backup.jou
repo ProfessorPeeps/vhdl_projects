@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Sep 22 14:09:35 2019
+# Process ID: 3932
+# Current directory: U:/ECE524L/Lab2/tb_filter/tb_filter.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source U:/ECE524L/Lab2/tb_filter/tb_filter.sim/sim_1/behav/xsim/xsim.dir/tb_filter_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: U:/ECE524L/Lab2/tb_filter/tb_filter.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: U:/ECE524L/Lab2/tb_filter/tb_filter.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source U:/ECE524L/Lab2/tb_filter/tb_filter.sim/sim_1/behav/xsim/xsim.dir/tb_filter_behav/webtalk/xsim_webtalk.tcl -notrace
